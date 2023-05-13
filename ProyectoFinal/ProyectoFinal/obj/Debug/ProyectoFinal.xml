@@ -37,42 +37,6 @@ ProyectoFinal
  Returns the Asp log object.
  </summary>
 </member>
-<member name="F:ProyectoFinal.Login._TextBox1">
-<summary>
-TextBox1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ProyectoFinal.Login._TextBox2">
-<summary>
-TextBox2 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ProyectoFinal.Login._RequiredFieldValidator1">
-<summary>
-RequiredFieldValidator1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ProyectoFinal.Login._Button">
-<summary>
-Button control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
 <member name="F:ProyectoFinal.PaginaMaster._head">
 <summary>
 head control.
