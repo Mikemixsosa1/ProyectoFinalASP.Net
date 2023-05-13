@@ -72,12 +72,12 @@
         <h2>Inicio de sesión</h2>
         <form method="post" action="Login.aspx">
             <div class="form-group">
-                <label for="username">Nombre de usuario:<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                <label for="username">Nombre de usuario:<asp:TextBox ID="txtUsuario" runat="server"></asp:TextBox>
                 </label>
 &nbsp;</div>
 <div class="form-group">
     <label for="password">Contraseña:</label>
-    <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
+    <asp:TextBox ID="txtContrasena" runat="server" TextMode="Password"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox2" ErrorMessage="¡Debe ingresar una contraseña!"></asp:RequiredFieldValidator>
 </div>
             <div>
