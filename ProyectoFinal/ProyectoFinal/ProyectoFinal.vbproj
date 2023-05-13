@@ -92,15 +92,31 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FormRegistro.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Mercancia.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormRegistro.aspx.designer.vb">
+      <DependentUpon>FormRegistro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistro.aspx.vb">
+      <DependentUpon>FormRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Login.aspx.designer.vb">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.vb">
       <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Mercancia.aspx.designer.vb">
+      <DependentUpon>Mercancia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mercancia.aspx.vb">
+      <DependentUpon>Mercancia.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
