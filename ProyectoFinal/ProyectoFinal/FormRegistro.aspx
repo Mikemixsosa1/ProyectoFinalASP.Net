@@ -1,52 +1,147 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/PaginaMaster.Master" CodeBehind="FormRegistro.aspx.vb" Inherits="ProyectoFinal.FormRegistro" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div>
-        <asp:Label ID="lblID" runat="server" Text="ID:"></asp:Label>
-        <asp:TextBox ID="txtID" runat="server"></asp:TextBox>
-    </div>
-    <div>
-        <asp:Label ID="lblFecha" runat="server" Text="Fecha:"></asp:Label>
-        <asp:TextBox ID="txtFecha" runat="server"></asp:TextBox>
-    </div>
-    <div>
-        <asp:Label ID="lblIDPaquete" runat="server" Text="ID Paquete:"></asp:Label>
-        <asp:TextBox ID="txtIDPaquete" runat="server" Width="82px"></asp:TextBox>
-    </div>
-    <div>
-        <asp:Label ID="lblTipoPago" runat="server" Text="Tipo de Pago:"></asp:Label>
-        <asp:TextBox ID="txtTipoPago" runat="server"></asp:TextBox>
-    </div>
-    <div>
-        <asp:Label ID="lblIDMercanciaVendida" runat="server" Text="ID Mercancía Vendida:"></asp:Label>
-        <asp:CheckBox runat="server" />
-    </div>
-    <div>
-        <asp:Label ID="lblProducto" runat="server" Text="Producto:"></asp:Label>
-        <asp:TextBox ID="txtProducto" runat="server"></asp:TextBox>
-    </div>
-    <div>
-        <asp:Label ID="lblCantidadMercancia" runat="server" Text="Cantidad de Mercancía:"></asp:Label>
-        <asp:TextBox ID="txtCantidadMercancia" runat="server"></asp:TextBox>
-    </div>
-    <div>
-        <asp:Label ID="lblIDCliente" runat="server" Text="ID Cliente:"></asp:Label>
-        <asp:TextBox ID="txtIDCliente" runat="server"></asp:TextBox>
-    </div>
-    <div>
-        <asp:Label ID="lblLimiteVolumen" runat="server" Text="Límite de Volumen:"></asp:Label>
-        <asp:TextBox ID="txtLimiteVolumen" runat="server"></asp:TextBox>
-    </div>
-    <div>
-        <asp:Label ID="lblCantidadPagarPaquete" runat="server" Text="Cantidad a Pagar del Paquete:"></asp:Label>
-        <asp:TextBox ID="txtCantidadPagarPaquete" runat="server"></asp:TextBox>
-    </div>
-    <div>
-        <asp:Label ID="lblCantidadTotal" runat="server" Text="Cantidad Total:"></asp:Label>
-        <asp:TextBox ID="txtCantidadTotal" runat="server"></asp:TextBox>
-    </div>
-    <div>
+    <style>
+        /* Estilos para el diseño */
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-        <asp:Button ID="lblSiguiente" runat="server" Text="Siguiente" />
+        .form-group {
+            margin-bottom: 15px;
+        }
 
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="checkbox"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .form-group .btn-submit {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .form-group .btn-submit:hover {
+            background-color: #45a049;
+        }
+
+        /* Estilos para las animaciones */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            0% {
+                transform: translateY(100%);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .animated {
+            animation-duration: 0.5s;
+            animation-fill-mode: both;
+        }
+
+        .fade-in {
+            animation-name: fadeIn;
+        }
+
+        .slide-in {
+            animation-name: slideIn;
+        }
+    </style>
+
+    <div class="container animated fade-in">
+        <div class="form-group">
+            <label for="txtID">ID:</label>
+            <input type="text" id="txtID" runat="server">
         </div>
+        <div class="form-group">
+            <label for="txtFecha">Fecha:</label>
+            <input type="text" id="txtFecha" runat="server">
+        </div>
+        <div class="form-group">
+            <label for="txtIDPaquete">ID Paquete:</label>
+            <input type="text" id="txtIDPaquete" runat="server">
+        </div>
+        <div class="form-group">
+            <label for="txtTipoPago">Tipo de Pago:</label>
+            <input type="text" id="txtTipoPago" runat="server">
+        </div>
+        <div class="form-group">
+            <label for="chkIDMercanciaVendida">ID Mercancía Vendida:</label>
+            <input type="checkbox" id="chkIDMercanciaVendida" runat="server">
+        </div>
+        <div class="form-group">
+            <label for="txtProducto">Producto:</label>
+            <input type="text" id="txtProducto" runat="server">
+        </div>
+        <div class="form-group">
+            <label for="txtCantidadMercancia">Cantidad de Mercancía:</label>
+            <input type="text" id="txtCantidadMercancia" runat="server">
+        </div>
+        <div class="form-group">
+            <label for="txtIDCliente">ID Cliente:</label>
+            <input type="text" id="txtIDCliente" runat="server">
+        </div>
+        <div class="form-group">
+            <label for="txtLimiteVolumen">Límite de Volumen:</label>
+            <input type="text" id="txtLimiteVolumen" runat="server">
+        </div>
+        <div class="form-group">
+            <label for="txtCantidadPagarPaquete">Cantidad a Pagar del Paquete:</label>
+            <input type="text" id="txtCantidadPagarPaquete" runat="server">
+        </div>
+        <div class="form-group">
+            <label for="txtCantidadTotal">Cantidad Total:</label>
+            <input type="text" id="txtCantidadTotal" runat="server">
+        </div>
+        <div class="form-group">
+            <button id="btnSiguiente" runat="server" class="btn-submit">Siguiente</button>
+        </div>
+    </div>
+
+    <script>
+        // Animación al cargar la página
+        window.addEventListener('DOMContentLoaded', function () {
+            var container = document.querySelector('.container');
+            container.classList.add('slide-in');
+        });
+
+        // Animación al hacer clic en el botón "Siguiente"
+        var btnSiguiente = document.getElementById('btnSiguiente');
+        btnSiguiente.addEventListener('click', function () {
+            var container = document.querySelector('.container');
+            container.classList.remove('slide-in');
+            container.classList.add('slide-out');
+            // Aquí puedes agregar lógica adicional al hacer clic en el botón "Siguiente"
+        });
+    </script>
 </asp:Content>

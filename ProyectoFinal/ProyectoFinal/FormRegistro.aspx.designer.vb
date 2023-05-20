@@ -14,31 +14,13 @@ Option Explicit On
 Partial Public Class FormRegistro
 
     '''<summary>
-    '''Control lblID.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblID As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''Control txtID.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtID As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control lblFecha.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblFecha As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtID As Global.System.Web.UI.HtmlControls.HtmlInputText
 
     '''<summary>
     '''Control txtFecha.
@@ -47,16 +29,7 @@ Partial Public Class FormRegistro
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtFecha As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control lblIDPaquete.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblIDPaquete As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtFecha As Global.System.Web.UI.HtmlControls.HtmlInputText
 
     '''<summary>
     '''Control txtIDPaquete.
@@ -65,16 +38,7 @@ Partial Public Class FormRegistro
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtIDPaquete As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control lblTipoPago.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblTipoPago As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtIDPaquete As Global.System.Web.UI.HtmlControls.HtmlInputText
 
     '''<summary>
     '''Control txtTipoPago.
@@ -83,25 +47,16 @@ Partial Public Class FormRegistro
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtTipoPago As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtTipoPago As Global.System.Web.UI.HtmlControls.HtmlInputText
 
     '''<summary>
-    '''Control lblIDMercanciaVendida.
+    '''Control chkIDMercanciaVendida.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblIDMercanciaVendida As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control lblProducto.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblProducto As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents chkIDMercanciaVendida As Global.System.Web.UI.HtmlControls.HtmlInputCheckBox
 
     '''<summary>
     '''Control txtProducto.
@@ -110,16 +65,7 @@ Partial Public Class FormRegistro
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtProducto As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control lblCantidadMercancia.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblCantidadMercancia As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtProducto As Global.System.Web.UI.HtmlControls.HtmlInputText
 
     '''<summary>
     '''Control txtCantidadMercancia.
@@ -128,16 +74,7 @@ Partial Public Class FormRegistro
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtCantidadMercancia As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control lblIDCliente.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblIDCliente As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtCantidadMercancia As Global.System.Web.UI.HtmlControls.HtmlInputText
 
     '''<summary>
     '''Control txtIDCliente.
@@ -146,16 +83,7 @@ Partial Public Class FormRegistro
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtIDCliente As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control lblLimiteVolumen.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblLimiteVolumen As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtIDCliente As Global.System.Web.UI.HtmlControls.HtmlInputText
 
     '''<summary>
     '''Control txtLimiteVolumen.
@@ -164,16 +92,7 @@ Partial Public Class FormRegistro
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtLimiteVolumen As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control lblCantidadPagarPaquete.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblCantidadPagarPaquete As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtLimiteVolumen As Global.System.Web.UI.HtmlControls.HtmlInputText
 
     '''<summary>
     '''Control txtCantidadPagarPaquete.
@@ -182,16 +101,7 @@ Partial Public Class FormRegistro
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtCantidadPagarPaquete As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control lblCantidadTotal.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblCantidadTotal As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtCantidadPagarPaquete As Global.System.Web.UI.HtmlControls.HtmlInputText
 
     '''<summary>
     '''Control txtCantidadTotal.
@@ -200,14 +110,14 @@ Partial Public Class FormRegistro
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtCantidadTotal As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtCantidadTotal As Global.System.Web.UI.HtmlControls.HtmlInputText
 
     '''<summary>
-    '''Control lblSiguiente.
+    '''Control btnSiguiente.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblSiguiente As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnSiguiente As Global.System.Web.UI.HtmlControls.HtmlButton
 End Class
