@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/PaginaMaster.Master" CodeBehind="Mercancia.aspx.vb" Inherits="ProyectoFinal.Mercancia" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style1 {
+            height: 52px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <head>
@@ -36,7 +41,7 @@
 		<div>
 			<button type="button" onclick="CalcularTotal()">Calcular Total</button>
 		</div>
-		<div>
+		<div class="auto-style1">
 			<label for="total">Total:</label>
 			<input type="text" id="total_txt" name="total_txt" readonly>
 		</div>
