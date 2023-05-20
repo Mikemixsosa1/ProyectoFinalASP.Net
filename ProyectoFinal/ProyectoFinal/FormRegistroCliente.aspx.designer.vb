@@ -41,13 +41,13 @@ Partial Public Class FormRegistro
     Protected WithEvents txtIDPaquete As Global.System.Web.UI.HtmlControls.HtmlInputText
 
     '''<summary>
-    '''Control txtTipoPago.
+    '''Control ddlTipoPago.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtTipoPago As Global.System.Web.UI.HtmlControls.HtmlInputText
+    Protected WithEvents ddlTipoPago As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''Control chkIDMercanciaVendida.
@@ -113,11 +113,20 @@ Partial Public Class FormRegistro
     Protected WithEvents txtCantidadTotal As Global.System.Web.UI.HtmlControls.HtmlInputText
 
     '''<summary>
-    '''Control btnSiguiente.
+    '''Control btnRegresar.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnSiguiente As Global.System.Web.UI.HtmlControls.HtmlButton
+    Protected WithEvents btnRegresar As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control btnSiguiente3.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnSiguiente3 As Global.System.Web.UI.WebControls.Button
 End Class

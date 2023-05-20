@@ -5,7 +5,8 @@
 
     End Sub
 
-    Protected Sub CheckBox3_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox3.CheckedChanged
+    Protected Sub btnRegresar_Click(sender As Object, e As EventArgs) Handles btnRegresar.Click
+        Response.Redirect("Mercancia.aspx")
 
     End Sub
 End Class

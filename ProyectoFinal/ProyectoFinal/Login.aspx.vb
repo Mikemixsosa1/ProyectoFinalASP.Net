@@ -9,15 +9,8 @@
 
     End Sub
 
-    Protected Sub Login1_Authenticate(sender As Object, e As AuthenticateEventArgs) Handles MyBase1.Authenticate
 
-    End Sub
-
-    Protected Sub Login1_Authenticate1(sender As Object, e As AuthenticateEventArgs) Handles MyBase1.Authenticate
-
-    End Sub
-
-    Protected Sub Login1_Authenticate2(sender As Object, e As AuthenticateEventArgs) Handles MyBase1.Authenticate
-
+    Protected Sub btnIniciarSesion_Click(sender As Object, e As EventArgs) Handles btnIniciarSesion.Click
+        Response.Redirect("ElegirPaquetes.aspx")
     End Sub
 End Class
