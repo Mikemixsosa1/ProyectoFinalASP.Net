@@ -55,55 +55,55 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False">
+    <Columns>
+        <asp:BoundField DataField="idPaquete" HeaderText="ID Paquete" />
+        <asp:BoundField DataField="Horas" HeaderText="Horas" />
+        <asp:BoundField DataField="Nombre" HeaderText="Nombre" />
+        <asp:BoundField DataField="Animador" HeaderText="Animador" />
+        <asp:BoundField DataField="Bailarines" HeaderText="Bailarines" />
+        <asp:BoundField DataField="DJ" HeaderText="DJ" />
+        <asp:BoundField DataField="Luces" HeaderText="Luces" />
+        <asp:BoundField DataField="Precio" HeaderText="Precio" />
+    </Columns>
+</asp:GridView>
+
         <h1>Elegir Paquetes</h1>
         <div class="form-group">
             <label for="txtIDPaquete">ID Paquete:</label>
             <input type="text" id="txtIDPaquete" runat="server" />
         </div>
-        <div class="form-group">
-            <label for="txtPaquetes">Paquetes:</label>
-            <input type="text" id="txtPaquetes" runat="server" />
-        </div>
-        <div class="form-group">
-            <label for="txtHoras">Horas:</label>
-            <input type="text" id="txtHoras" runat="server" />
-        </div>
-        <div class="form-group">
-            <label for="txtAnimador">Animador:</label>
-            <input type="text" id="txtAnimador" runat="server" />
-        </div>
-        <div class="form-group">
-            <label for="txtBailarines">Bailarines:</label>
-            <input type="text" id="txtBailarines" runat="server" />
-        </div>
-        <div class="form-group">
-            <label for="txtDj">DJ:</label>
-            <input type="text" id="txtDj" runat="server" />
-        </div>
-        <div class="form-group">
-            <label for="txtLuces">Luces:</label>
-            <input type="text" id="txtLuces" runat="server" />
-        </div>
-        <div class="form-group">
-            <label for="txtPrecio">Precio:</label>
-            <input type="text" id="txtPrecio" runat="server" />
-        </div>
-        <table id="dataGridView">
-            <thead>
-                <tr>
-                    <th>ID Paquete</th>
-                    <th>Nombre</th>
-                    <th>Horas</th>
-                    <th>Animador</th>
-                    <th>Bailarines</th>
-                    <th>DJ</th>
-                    <th>Luces</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Los datos del GridView se llenarán dinámicamente desde el código detrás -->
-            </tbody>
-        </table>
+       <% If divAdminContent Then %>
+    <div class="form-group">
+        <label for="txtPaquetes">Paquetes:</label>
+        <input type="text" id="txtPaquetes" runat="server" />
+    </div>
+    <div class="form-group">
+        <label for="txtHoras">Horas:</label>
+        <input type="text" id="txtHoras" runat="server" />
+    </div>
+    <div class="form-group">
+        <label for="txtAnimador">Animador:</label>
+        <input type="text" id="txtAnimador" runat="server" />
+    </div>
+    <div class="form-group">
+        <label for="txtBailarines">Bailarines:</label>
+        <input type="text" id="txtBailarines" runat="server" />
+    </div>
+    <div class="form-group">
+        <label for="txtDj">DJ:</label>
+        <input type="text" id="txtDj" runat="server" />
+    </div>
+    <div class="form-group">
+        <label for="txtLuces">Luces:</label>
+        <input type="text" id="txtLuces" runat="server" />
+    </div>
+    <div class="form-group">
+        <label for="txtPrecio">Precio:</label>
+        <input type="text" id="txtPrecio" runat="server" />
+    </div>
+<% End If %>
+     
     </div>
     <div class="auto-style1">
 

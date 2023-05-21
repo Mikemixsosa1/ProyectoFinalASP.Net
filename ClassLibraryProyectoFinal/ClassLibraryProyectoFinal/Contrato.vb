@@ -124,7 +124,7 @@ Public Class Contrato
     End Property
 
     Public Function InsertarContrato() As Boolean
-        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=NombreBaseDeDatos; Integrated Security=True")
+        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=Sonidero; Integrated Security=True")
         Dim cmd As New SqlCommand("dbo.InsertarContrato", cnx)
         cmd.CommandType = CommandType.StoredProcedure
         cmd.Parameters.Add(New SqlParameter("@Fecha", MstrFecha))
@@ -148,7 +148,7 @@ Public Class Contrato
 
 
     Public Function EliminarContrato() As Boolean
-        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=NombreBaseDeDatos; Integrated Security=True")
+        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=Sonidero; Integrated Security=True")
         Dim cmd As New SqlCommand("dbo.EliminarContratoPorId", cnx)
         cmd.CommandType = CommandType.StoredProcedure
         cmd.Parameters.Add(New SqlParameter("@idContrato", MstrIdContrato))
@@ -161,7 +161,7 @@ Public Class Contrato
     End Function
 
     Public Function ActualizarContrato() As Boolean
-        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=NombreBaseDeDatos; Integrated Security=True")
+        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=Sonidero; Integrated Security=True")
         Dim cmd As New SqlCommand("dbo.ActualizarContratoPorId", cnx)
         cmd.CommandType = CommandType.StoredProcedure
         cmd.Parameters.Add(New SqlParameter("@Fecha", MstrFecha))
@@ -185,7 +185,7 @@ Public Class Contrato
     End Function
 
     Public Function BuscarContratoPorId() As Boolean
-        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=NombreBaseDeDatos; Integrated Security=True")
+        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=Sonidero; Integrated Security=True")
         Dim cmd As New SqlCommand("BuscarContratoPorId", cnx)
         cmd.CommandType = CommandType.StoredProcedure
         cmd.Parameters.Add(New SqlParameter("@idContrato", MstrIdContrato))

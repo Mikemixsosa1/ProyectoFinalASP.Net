@@ -37,94 +37,103 @@ ProyectoFinal
  Returns the Asp log object.
  </summary>
 </member>
-<member name="F:ProyectoFinal.ElegirPaquetes._txtIDPaquete">
+<member name="F:ProyectoFinal.ElegirPaquetes._GridView1">
 <summary>
-Control txtIDPaquete.
+GridView1 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ProyectoFinal.ElegirPaquetes._txtIDPaquete">
+<summary>
+txtIDPaquete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:ProyectoFinal.ElegirPaquetes._txtPaquetes">
 <summary>
-Control txtPaquetes.
+txtPaquetes control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:ProyectoFinal.ElegirPaquetes._txtHoras">
 <summary>
-Control txtHoras.
+txtHoras control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:ProyectoFinal.ElegirPaquetes._txtAnimador">
 <summary>
-Control txtAnimador.
+txtAnimador control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:ProyectoFinal.ElegirPaquetes._txtBailarines">
 <summary>
-Control txtBailarines.
+txtBailarines control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:ProyectoFinal.ElegirPaquetes._txtDj">
 <summary>
-Control txtDj.
+txtDj control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:ProyectoFinal.ElegirPaquetes._txtLuces">
 <summary>
-Control txtLuces.
+txtLuces control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:ProyectoFinal.ElegirPaquetes._txtPrecio">
 <summary>
-Control txtPrecio.
+txtPrecio control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:ProyectoFinal.ElegirPaquetes._btnRegresar">
 <summary>
-Control btnRegresar.
+btnRegresar control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:ProyectoFinal.ElegirPaquetes._btnSiguiente">
 <summary>
-Control btnSiguiente.
+btnSiguiente control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:ProyectoFinal.FormRegistro._txtID">

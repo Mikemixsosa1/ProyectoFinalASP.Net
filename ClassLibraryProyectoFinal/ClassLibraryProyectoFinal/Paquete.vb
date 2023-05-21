@@ -83,7 +83,7 @@ Public Class Paquete
     End Property
 
     Public Function InsertarPaquete() As Boolean
-        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=NombreBaseDeDatos; Integrated Security=True")
+        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=Sonidero; Integrated Security=True")
         Dim cmd As New SqlCommand("InsertarPaquete", cnx)
         cmd.CommandType = CommandType.StoredProcedure
         cmd.Parameters.Add(New SqlParameter("@idPaquete", MstrIdPaquete))
@@ -103,7 +103,7 @@ Public Class Paquete
     End Function
 
     Public Function EliminarPaquete() As Boolean
-        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=NombreBaseDeDatos; Integrated Security=True")
+        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=Sonidero; Integrated Security=True")
         Dim cmd As New SqlCommand("EliminarPaquete", cnx)
         cmd.CommandType = CommandType.StoredProcedure
         cmd.Parameters.Add(New SqlParameter("@idPaquete", MstrIdPaquete))
@@ -116,7 +116,7 @@ Public Class Paquete
     End Function
 
     Public Function ModificarPaquete() As Boolean
-        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=NombreBaseDeDatos; Integrated Security=True")
+        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=Sonidero; Integrated Security=True")
         Dim cmd As New SqlCommand("ActualizarPaquete", cnx)
         cmd.CommandType = CommandType.StoredProcedure
         cmd.Parameters.Add(New SqlParameter("@idPaquete", MstrIdPaquete))
@@ -136,7 +136,7 @@ Public Class Paquete
     End Function
 
     Public Function BuscarPaquetePorId() As Boolean
-        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=NombreBaseDeDatos; Integrated Security=True")
+        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=Sonidero; Integrated Security=True")
         Dim cmd As New SqlCommand("ConsultarPaquetePorID", cnx)
         cmd.CommandType = CommandType.StoredProcedure
         cmd.Parameters.Add(New SqlParameter("@idPaquete", MstrIdPaquete))

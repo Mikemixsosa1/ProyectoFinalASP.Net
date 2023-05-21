@@ -118,3 +118,4 @@ C:\Users\HP\Documents\GitHub\ProyectoFinalASP.Net\ProyectoFinal\ProyectoFinal\ob
 C:\Users\HP\Documents\GitHub\ProyectoFinalASP.Net\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.dll
 C:\Users\HP\Documents\GitHub\ProyectoFinalASP.Net\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.xml
 C:\Users\HP\Documents\GitHub\ProyectoFinalASP.Net\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ProyectoFinalASP.Net\ProyectoFinal\ProyectoFinal\bin\ClassLibraryProyectoFinal.dll
