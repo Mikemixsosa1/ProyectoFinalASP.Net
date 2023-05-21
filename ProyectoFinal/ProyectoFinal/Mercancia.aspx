@@ -76,7 +76,19 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
         <h1>Formulario de Mercancía</h1>
+        <div  class="form-group">
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False">
+                <Columns>
+                    <asp:BoundField DataField="idMercancia" HeaderText="ID Mercancia" />
+                    <asp:BoundField DataField="Producto" HeaderText="Producto" />
+                    <asp:BoundField DataField="Cantidad" HeaderText="Cantidad" />
+                    <asp:BoundField DataField="Precio" HeaderText="Precio" />
+                </Columns>
+            </asp:GridView>
+        </div>
+
         <div class="form-group">
+
             <label for="idMercancia">ID Mercancía:</label>
             <input type="text" id="idMercancia" name="idMercancia">
         </div>
@@ -93,7 +105,8 @@
             <input type="number" id="cantidad" name="cantidad" value="1">
         </div>
         <div class="form-group">
-            <button type="button" id="btnCalculate" class="btn-calculate">Calcular Total</button>
+        <asp:Button ID="btnCalcular" class="btn-calculate" runat="server" Text="Calcular" />
+
         </div>
         <div class="auto-style1">
             <label for="total">Total:</label>

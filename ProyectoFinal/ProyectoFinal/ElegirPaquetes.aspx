@@ -55,7 +55,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False">
+   
+
+        <h1>Elegir Paquetes</h1>
+
+        <div class="form-group">
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False">
     <Columns>
         <asp:BoundField DataField="idPaquete" HeaderText="ID Paquete" />
         <asp:BoundField DataField="Horas" HeaderText="Horas" />
@@ -67,9 +72,12 @@
         <asp:BoundField DataField="Precio" HeaderText="Precio" />
     </Columns>
 </asp:GridView>
+        </div>
 
-        <h1>Elegir Paquetes</h1>
         <div class="form-group">
+
+                 
+
             <label for="txtIDPaquete">ID Paquete:</label>
             <input type="text" id="txtIDPaquete" runat="server" />
         </div>
