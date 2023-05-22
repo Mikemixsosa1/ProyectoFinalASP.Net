@@ -89,7 +89,7 @@ Public Class Mercancia
 
 
     Public Function BuscarMercanciaPorId() As Boolean
-        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=NombreBaseDeDatos; Integrated Security=True")
+        Dim cnx As New SqlConnection("Server=LAPTOP-9AIDSJIC\SQLEXPRESS; Database=Sonidero; Integrated Security=True")
         Dim cmd As New SqlCommand("ConsultarMercanciaPorId", cnx)
         cmd.CommandType = CommandType.StoredProcedure
         cmd.Parameters.Add(New SqlParameter("@idMercancia", MstridMercancia))

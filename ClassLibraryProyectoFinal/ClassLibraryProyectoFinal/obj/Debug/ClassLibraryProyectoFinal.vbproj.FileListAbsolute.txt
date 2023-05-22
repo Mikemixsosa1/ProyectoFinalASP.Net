@@ -8,3 +8,13 @@ D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ClassLibrar
 D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ClassLibraryProyectoFinal\ClassLibraryProyectoFinal\obj\Debug\ClassLibraryProyectoFinal.dll
 D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ClassLibraryProyectoFinal\ClassLibraryProyectoFinal\obj\Debug\ClassLibraryProyectoFinal.xml
 D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ClassLibraryProyectoFinal\ClassLibraryProyectoFinal\obj\Debug\ClassLibraryProyectoFinal.pdb
+D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ProyectoFinalASP.Net\ClassLibraryProyectoFinal\ClassLibraryProyectoFinal\bin\Debug\ClassLibraryProyectoFinal.dll
+D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ProyectoFinalASP.Net\ClassLibraryProyectoFinal\ClassLibraryProyectoFinal\bin\Debug\ClassLibraryProyectoFinal.pdb
+D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ProyectoFinalASP.Net\ClassLibraryProyectoFinal\ClassLibraryProyectoFinal\bin\Debug\ClassLibraryProyectoFinal.xml
+D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ProyectoFinalASP.Net\ClassLibraryProyectoFinal\ClassLibraryProyectoFinal\obj\Debug\ClassLibraryProyectoFinal.vbproj.AssemblyReference.cache
+D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ProyectoFinalASP.Net\ClassLibraryProyectoFinal\ClassLibraryProyectoFinal\obj\Debug\ClassLibraryProyectoFinal.Resources.resources
+D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ProyectoFinalASP.Net\ClassLibraryProyectoFinal\ClassLibraryProyectoFinal\obj\Debug\ClassLibraryProyectoFinal.vbproj.GenerateResource.cache
+D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ProyectoFinalASP.Net\ClassLibraryProyectoFinal\ClassLibraryProyectoFinal\obj\Debug\ClassLibraryProyectoFinal.vbproj.CoreCompileInputs.cache
+D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ProyectoFinalASP.Net\ClassLibraryProyectoFinal\ClassLibraryProyectoFinal\obj\Debug\ClassLibraryProyectoFinal.dll
+D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ProyectoFinalASP.Net\ClassLibraryProyectoFinal\ClassLibraryProyectoFinal\obj\Debug\ClassLibraryProyectoFinal.xml
+D:\MyArchives\Tareas 6to Semestre\Programacion 3\ProyectoFinalASPNET\ProyectoFinalASP.Net\ClassLibraryProyectoFinal\ClassLibraryProyectoFinal\obj\Debug\ClassLibraryProyectoFinal.pdb
